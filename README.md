@@ -8,7 +8,11 @@ A submarine ship for traversing the planet
 
 ## Steps 
 
-npm install -g vue-cli
+==> npm install -g vue-cli
 
-vue init webpack nautilus
+==> vue init webpack nautilus
 
+
+##  Running
+
+==> npm run dev
