@@ -11,3 +11,8 @@ A submarine ship for traversing the planet
 ~/repos/ad/githubrepos/nautilus/nautilus-react (master) 
 ==> node --version
 v9.5.0
+
+
+# Running 
+
+==> npm start
