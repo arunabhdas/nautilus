@@ -2,6 +2,24 @@
 A submarine ship for traversing the planet
 
 
+# nautilus-angular
+
+
+# Steps
+
+==> ng new nautilus
+
+
+
+
+
+
+# Running 
+
+==> npm start
+
+# Meta
+
 ~/repos/ad/githubrepos/nautilus/nautilus-react (master) 
 ==> npm --version
 5.6.0
@@ -11,8 +29,3 @@ A submarine ship for traversing the planet
 ~/repos/ad/githubrepos/nautilus/nautilus-react (master) 
 ==> node --version
 v9.5.0
-
-
-# Running 
-
-==> npm start
