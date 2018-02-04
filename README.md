@@ -156,3 +156,11 @@ v9.5.0
 # nautilus-ng5
 
 ==> ng new nautilus --style=scss --routing
+
+
+## Install 
+
+https://element-angular.faas.ele.me/guide/start
+
+
+==> npm i --save element-angular
