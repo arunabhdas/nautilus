@@ -16,7 +16,7 @@ A project management tool and submarine tool for traversing the planet
 
 # Running 
 
-==> ng serve
+==> ng serve --open
 
 # Meta
 
