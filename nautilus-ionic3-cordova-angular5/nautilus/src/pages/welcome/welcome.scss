@@ -1,5 +1,14 @@
 page-welcome {
     #welcome {
         background: color($colors, energy);
+
+        h1 {
+            font-size: 32px;
+            margin-top: 50px;
+            color: color($colors, light);
+
+        }
     }
+
+
 }
