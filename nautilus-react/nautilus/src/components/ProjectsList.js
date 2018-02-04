@@ -1,17 +1,23 @@
 import React, { Component } from 'react';
 import './ProjectsList.css';
+import ProjectsListHeader from './ProjectsListHeader';
+import _ from 'lodash';
+import ProjectsListItem from './ProjectsListItem';
 
+export default class ProjectsList extends React.Component {
 
-export default class ProjectsList extends Component {
+  renderItems() {
+    return _.map(this.props.projects, (project, index) => <ProjectsListItem key={index} {...project } />);
+
+  }
   render() {
+      console.log(this.props.projects);
     return (
         <table>
-                <thead>
-                    <tr>
-                        <th>name</th>
-                        <th>Actions</th> 
-                    </tr>
-                </thead>
+            <ProjectsListHeader/>
+            <tr>
+                {this.renderItems()}
+            </tr>
         </table>
     );
   }

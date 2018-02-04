@@ -16,12 +16,20 @@ brew install yarn
 
 
 ## Install dependencies
-
+--------------------------------------
 ==> npm i --save webpack
 
 or
 
 ==> npm i -S webpack
+
+--------------------------------------
+
+==> npm i --save lodash
+
+or
+
+==> npm i -S lodash
 
 
 --------------------------------------
@@ -31,6 +39,8 @@ or
 OR
 
 ==> npm i -S react react-dom
+
+--------------------------------------
 
 ## Install dev dependencies
 

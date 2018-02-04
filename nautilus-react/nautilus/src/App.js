@@ -16,6 +16,14 @@ const projects = [
 ]
 
 class App extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      projects: projects
+    };
+  }
+
   render() {
     return (
       <div className="App">
@@ -24,7 +32,7 @@ class App extends Component {
           <h1 className="App-title">Nautilus</h1>
         </header>
         <p className="App-intro">
-          <ProjectsList/>
+          <ProjectsList projects={this.state.projects}/>
         </p>
       </div>
     );
