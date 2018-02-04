@@ -8,5 +8,5 @@ import { ProjectsComponent } from './projects/projects.component';
 
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Nautilus';
 }
