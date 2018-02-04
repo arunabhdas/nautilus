@@ -170,7 +170,7 @@ https://element-angular.faas.ele.me/guide/start
 https://ionicframework.com/docs/components/#overview
 
 
-# nautilus-ionic-cordova
+# Install nautilus-ionic-cordova
 
 ==> npm install -g ionic cordova
 
@@ -205,3 +205,16 @@ Misc:
 ==> ionic g page signup
 
 ==> cordova platform add ios
+
+==> ionic cordova build ios
+
+or
+
+==> ionic cordova build android
+
+
+
+
+# Links
+
+https://www.youtube.com/watch?v=PNzE1MX5iRU
