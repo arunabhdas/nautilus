@@ -203,3 +203,5 @@ Misc:
 ==> ionic g page login
 
 ==> ionic g page signup
+
+==> cordova platform add ios

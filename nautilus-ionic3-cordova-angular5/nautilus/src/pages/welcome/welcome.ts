@@ -24,10 +24,10 @@ export class WelcomePage {
   }
 
   login() {
-
+    this.navCtrl.push(LoginPage);
   }
 
   signup() {
-
+    this.navCtrl.push(SignupPage);
   }
 }
