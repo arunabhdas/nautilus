@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-projects',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectsComponent implements OnInit {
   projects;
-
+  text;
   constructor() { }
 
   ngOnInit() {
@@ -22,6 +23,10 @@ export class ProjectsComponent implements OnInit {
         text: 'Fix supply chain'
       },
     ];
+  }
+
+  addProject() {
+    console.log(this.text);
   }
 
 }

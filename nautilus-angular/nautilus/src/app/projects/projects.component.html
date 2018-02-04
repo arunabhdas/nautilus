@@ -1,10 +1,11 @@
 <h3>Add Project</h3>
-  <form>
+  <form (submit)="addProject()">
+    <input type="text" id="name" name="name">
   </form>
 
 
 
-<h1>Projects List</h1>
+<h1>Projects List {{projectTitle}}</h1>
 <ul class="projects">
     <li *ngFor="let project of projects">
       {{ project.text }}
