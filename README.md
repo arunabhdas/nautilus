@@ -1,5 +1,5 @@
 # nautilus
-A submarine ship for traversing the planet
+A project management tool and submarine tool for traversing the planet
 
 
 # nautilus-angular
@@ -10,13 +10,13 @@ A submarine ship for traversing the planet
 ==> ng new nautilus
 
 
-
+==> ng g component projects
 
 
 
 # Running 
 
-==> npm start
+==> ng serve
 
 # Meta
 
