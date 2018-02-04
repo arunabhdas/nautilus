@@ -198,3 +198,8 @@ Misc:
 
 ==>  ionic start nautilus tabs
 
+==> ionic g page welcome
+
+==> ionic g page login
+
+==> ionic g page signup
