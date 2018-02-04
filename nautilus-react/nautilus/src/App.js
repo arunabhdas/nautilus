@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import ProjectsList from './components/ProjectsList';
+import CreateProject from './components/CreateProject';
 
 
 const projects = [
@@ -32,6 +33,7 @@ class App extends Component {
           <h1 className="App-title">Nautilus</h1>
         </header>
         <p className="App-intro">
+          <CreateProject/>
           <ProjectsList projects={this.state.projects}/>
         </p>
       </div>
