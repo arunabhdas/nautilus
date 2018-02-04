@@ -151,3 +151,8 @@ Paste the following
 ~/repos/ad/githubrepos/nautilus/nautilus-react (master) 
 ==> node --version
 v9.5.0
+
+
+# nautilus-ng5
+
+==> ng new nautilus --style=scss --routing
