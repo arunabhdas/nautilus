@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import { Button } from 'element-react';
+
+import 'element-theme-default';
 
 export default class ProjectsListItem extends React.Component {
 
@@ -14,16 +18,16 @@ export default class ProjectsListItem extends React.Component {
       if (this.state.isEditing) {
           return (
             <td>
-                <button>Save</button>
-                <button onClick={this.onCancelClick.bind(this)}>Cancel</button>
+                <Button type="primary">Save</Button>
+                <Button onClick={this.onCancelClick.bind(this)}>Cancel</Button>
             </td>
           );
       }
 
       return (
         <td>
-        <button onClick={this.onEditClick.bind(this)}>Edit</button>
-        <button>Delete</button> 
+        <Button type="primary" onClick={this.onEditClick.bind(this)}>Edit</Button>
+        <Button plain={true} type="danger">Delete</Button>
         </td>
       );
   }

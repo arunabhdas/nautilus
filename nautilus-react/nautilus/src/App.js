@@ -3,7 +3,11 @@ import logo from './logo.svg';
 import './App.css';
 import ProjectsList from './components/ProjectsList';
 import CreateProject from './components/CreateProject';
+import { i18n } from 'element-react';
+import locale from 'element-react/src/locale/lang/en';
+import AppHeader from './components/AppHeader';
 
+i18n.use(locale);
 
 const projects = [
   {
@@ -28,10 +32,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Nautilus</h1>
-        </header>
+        <AppHeader></AppHeader>
         <p className="App-intro">
           <CreateProject/>
           <ProjectsList projects={this.state.projects}/>

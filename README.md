@@ -42,6 +42,15 @@ OR
 
 --------------------------------------
 
+npm i element-react --save
+
+--------------------------------------
+
+npm install element-theme-default --save
+
+--------------------------------------
+
+
 ## Install dev dependencies
 
 ==> npm i --save-dev babel-core babel-loader babel-preset-es2015 babel-preset-react react-hot-loader webpack webpack-dev-server
