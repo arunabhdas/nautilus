@@ -158,9 +158,43 @@ v9.5.0
 ==> ng new nautilus --style=scss --routing
 
 
-## Install 
+## Install element-angular or ionic-angular
 
 https://element-angular.faas.ele.me/guide/start
 
 
 ==> npm i --save element-angular
+
+==> npm install --save ionic-angular
+
+https://ionicframework.com/docs/components/#overview
+
+
+# nautilus-ionic-cordova
+
+==> npm install -g ionic cordova
+
+
+==> ionic info
+
+==> ionic info
+[WARN] You are not in an Ionic project directory. Project context may be missing.
+
+cli packages: (/Users/coder/.nvm/versions/node/v7.7.2/lib/node_modules)
+
+    @ionic/cli-utils  : 1.19.1
+    ionic (Ionic CLI) : 3.19.1
+
+System:
+
+    Node : v7.7.2
+    npm  : 4.1.2 
+    OS   : macOS Sierra
+
+Misc:
+
+    backend : pro
+
+
+==>  ionic start nautilus tabs
+
