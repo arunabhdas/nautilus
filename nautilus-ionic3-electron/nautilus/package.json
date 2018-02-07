@@ -37,5 +37,19 @@
     "foreman": "^2.0.0",
     "typescript": "2.4.2"
   },
-  "description": "An Ionic project"
+  "description": "An Ionic project",
+    "main": "electron/electron.js",
+  "config": {
+    "ionic_bundler": "webpack",
+    "ionic_webpack": "./config/webpack.config.js"
+  },
+  "build": {
+    "appId": "nautilus",
+    "electronVersion": "1.6.2",
+    "asar":false,
+    "files": [
+      "www/**/*",
+      "electron/*"
+    ]
+  }
 }
